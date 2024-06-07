@@ -7,7 +7,7 @@ import { MdUnsubscribe } from "react-icons/md";
 export const Footer = () => {
   return (
     <div>
-        <div className='h-56 w-full bg-gray-800'>
+        <div className='h-56 w-full bg-gray-800 hidden lg:block'>
             <div className='h-24 w-full flex justify-center items-center text-white'>
                 <h1 className='font-bold text-sm px-32 pr-0'>List your show </h1>,
                 <h2>Got a show, event, activity or a great experince? partner with us & get listed on </h2>,
