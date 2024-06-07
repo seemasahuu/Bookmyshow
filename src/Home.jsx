@@ -1,7 +1,7 @@
 import React from "react";
-import { Header } from "./Header";
-import { Moviescounter } from "./Moviescounter";
-import { Footer } from "./Footer";
+import { Header } from "./components/Header";
+import { Moviescounter } from "./screens/Moviescounter";
+import { Footer } from "./components/Footer";
 
 export const Home = () => {
   return (
