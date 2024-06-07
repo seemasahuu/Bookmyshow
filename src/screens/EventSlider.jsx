@@ -45,7 +45,7 @@ export default function EventSlider({ data, title }) {
         </button>
       </div>
 
-      <div className="flex overflow-x-auto whitespace-nowrap scrollbar-hide">
+      <div className=" lg:flex overflow-x-auto whitespace-nowrap scrollbar-hide">
         {data.map((event, index) => (
           <div key={index} className="inline-block">
             <EventCard event={event} />

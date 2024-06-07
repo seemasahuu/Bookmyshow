@@ -75,7 +75,7 @@ const data = [
 
 export const Moviescounter = () => {
   return (
-    <div className='m-20'>
+    <div className='lg:m-20 m-6'>
       <EventSlider data={data} title="Movies" />
       <Divider/>
       <EventSlider data={data} title="Events" />
